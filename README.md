@@ -73,7 +73,7 @@
 * Recherche incrémentale avec CTRL+R
 * Recherche dans l'historique via les flèches directionnelles haut et bas 
 * Sauvegarde dans un fichier pour être utilisé sur plusieurs sessions
-* Buil-in fc
+* Built-in fc
 
 #### Autocomplétion contextuelle
 * Complétion des commandes et des built-ins
