@@ -9,7 +9,7 @@
 * [cempassi](https://github.com/cempassi)
 * [ffoissey](https://github.com/ffoissey)
 
-## Fonctionnalité:
+## Fonctionnalités:
 
 #### Basique
 * Affichage d’un prompt
