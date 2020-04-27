@@ -6,7 +6,7 @@
 #    By: nrechati <nrechati@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/02/17 23:46:04 by cempassi          #+#    #+#              #
-#    Updated: 2019/07/09 07:47:59 by cempassi         ###   ########.fr        #
+#    Updated: 2020/04/27 23:27:01 by ffoissey         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -244,10 +244,10 @@ OBJS = $(patsubst %.c, $(PATHO)%.o, $(SRCS))
 OBJD = $(patsubst %.c, $(PATHO)db%.o, $(SRCS))
 
 WFLAGS += -Wall
-WFLAGS += -Werror
 WFLAGS += -Wextra
 IFLAGS = -I$(PATHI)
 CFLAGS = $(WFLAGS)
+#CFLAGS += -g3  -fsanitize=address,undefined
 
 vpath %.c srcs/conversion
 vpath %.c srcs/get_next_line

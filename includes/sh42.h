@@ -6,13 +6,14 @@
 /*   By: nrechati <nrechati@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/20 13:17:19 by skuppers          #+#    #+#             */
-/*   Updated: 2019/07/09 17:02:17 by nrechati         ###   ########.fr       */
+/*   Updated: 2020/04/27 22:58:04 by ffoissey         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef SH42_H
 # define SH42_H
 
+# include "sys/wait.h"
 # include "libft.h"
 # include "define.h"
 # include "enum.h"

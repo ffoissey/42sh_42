@@ -6,7 +6,7 @@
 #    By: nrechati <nrechati@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/07/04 15:57:18 by cempassi          #+#    #+#              #
-#    Updated: 2019/07/09 17:52:56 by ffoissey         ###   ########.fr        #
+#    Updated: 2020/04/27 23:26:49 by ffoissey         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -182,7 +182,7 @@ LDLIBD = -lftdb
 LDFLAGS = -L $(LPATH)
 CFLAGS += -Wall
 CFLAGS += -Wextra
-CFLAGS += -Werror
+#CFLAGS += -fsanitize=address,undefined
 GC ?= 1
 ifneq ($(GC), 0)
 	CFLAGS += -D GC
@@ -193,7 +193,6 @@ ifeq ($(EXEC), 0)
 endif
 CFLAGS += $(IFLAGS)
 DFLAGS = $(CFLAGS)
-DFLAGS += #-fsanitize=address,undefined
 LFLAGS = -ltermcap
 
 # ---------------------------------------------------------------------------- #

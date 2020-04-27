@@ -6,7 +6,7 @@
 /*   By: nrechati <nrechati@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/07/04 13:54:42 by skuppers          #+#    #+#             */
-/*   Updated: 2019/07/09 17:03:14 by nrechati         ###   ########.fr       */
+/*   Updated: 2020/04/27 23:29:53 by ffoissey         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,7 +49,7 @@ int16_t					term_mode(uint8_t mode_flag)
 {
 	if (mode_flag == TERMMODE_INIT)
 		return (init_term_modes());
-	else if (mode_flag == TERMMODE_DFLT)
+	else if (mode_flag == TERMMODE_DFLT && g_shell->orig_ios != NULL)
 		return (set_mode(g_shell->orig_ios));
 	else if (mode_flag == TERMMODE_SLE)
 		return (set_mode(g_shell->sle_ios));
