@@ -1,7 +1,7 @@
 # 42sh
 *Ce projet consiste à créer de toutes pièces un shell complet.*
 
-#### Repository original: [skuppers/42sh](https://github.com/skuppers/42sh)
+#### Repository original: [Nrechati/42sh-UNIX-Shell](https://github.com/Nrechati/42sh-UNIX-Shell)
 
 ## Team:
 * [skuppers](https://github.com/skuppers)
